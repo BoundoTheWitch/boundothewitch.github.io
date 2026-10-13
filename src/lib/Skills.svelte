@@ -8,7 +8,7 @@
     } from "@icons-pack/svelte-simple-icons";
 </script>
 
-<section class="skills">
+<section class="skills" id="skills">
     <h1>Skills</h1>
     <p>Currently I am skilled in...</p>
     <ul>
