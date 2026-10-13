@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <section id="skills">
@@ -34,10 +33,6 @@
             background-color: var(--clr-white);
             padding: 1rem;
             border-radius: 20px;
-
-            span {
-                margin-right: 5px;
-            }
 
             &::selection {
                 text-shadow: none;
