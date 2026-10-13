@@ -14,6 +14,7 @@
         projName="Portfolio site"
         projDesc="The very site you're on! This was made using SvelteKit built as a static site. The link will direct you to the repo for the site."
         projLink="https://github.com/BoundoTheWitch/boundothewitch.github.io"
+        projSrc="https://github.com/BoundoTheWitch/boundothewitch.github.io"
         projImg={sitePreview}
         projImgAlt="Small preview of the portfolio site"
     />
