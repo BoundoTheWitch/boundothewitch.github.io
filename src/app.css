@@ -3,6 +3,9 @@
         - Refine layout and colors
         - Make mobile friendly
         - Nav bar
+        - Change skills section
+        - Add fade in to whole site
+        - Clean up extra colors
 */
 :root {
     --clr-black: #170222;
@@ -24,11 +27,6 @@
 
     --fnt-primary: 'Didact Gothic', sans-serif;
     --fnt-header: 'Pirata One', serif;
-
-    --scrn-sm: 480px;
-    --scrn-md: 768px;
-    --scrn-lg: 1024px;
-    --scrn-xl: 1200px;
 
 
 }
