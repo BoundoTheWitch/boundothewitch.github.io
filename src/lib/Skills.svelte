@@ -12,9 +12,9 @@
         } from "@icons-pack/svelte-simple-icons";
 </script>
 
-<section>
+<section id="skills">
     <h1>Skills</h1>
-    <p>I know how to do some of these things:</p>
+    <p>I know how to do these things:</p>
     <ul>
         <li><span><SiHtml5 /></span>HTML</li>
         <li><span><SiCss /></span>CSS</li>
