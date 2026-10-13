@@ -1,5 +1,5 @@
 <script>
-    import { SiGithub } from "@icons-pack/svelte-simple-icons";
+    
 
     let { projName, projDesc, projImg, projImgAlt, projLink, projSrc } = $props();
 </script>
@@ -9,12 +9,14 @@
     <div>
         <h2 class="card-title">{projName}</h2>
         <p class="card-desc">{projDesc}</p>
-            <p>
+            <p class="card-links">
+                {#if projLink}
                 <a href={projLink}>Website</a>
+                {/if}
             </p>
-            <p>
+            <p class="card-links">
                 {#if projSrc}
-                <a href={projSrc}>Source <SiGithub /></a>
+                <a href={projSrc}>Source</a>
                 {/if}
             </p>
     </div>
@@ -44,22 +46,17 @@
             &:hover {
                 color: var(--clr-blue);
             }
-            &::after {
-                content: '';
-                display: inline-block;
-                width: 1.12rem;
-                height: 1.12rem;
-                margin-left: 3px;
-                background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg>');
-                filter: invert(100%);
-
-            }
         }
 
         .card-image {
             width: 200px;
             aspect-ratio: 16/9;
             background-color: grey;
+        }
+
+        .card-links {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
         }
     }
 </style>
