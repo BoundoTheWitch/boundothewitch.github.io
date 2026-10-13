@@ -42,9 +42,8 @@ ul {
 body {
     color: var(--base-text);
     font-family: var(--fnt-primary);
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     min-block-size: 100svh;
-    place-items: center;
     /* Background made using MSHR (mshr.app) */
     background-color: hsla(279, 88%, 7%, 1);
     background-image: radial-gradient(circle at 3% 101%, hsla(279, 88%, 7%, 1) 13.797574811818231%, transparent 65%), radial-gradient(circle at 98% 98%, hsla(279, 88%, 7%, 1) 15%, transparent 63.310997437284335%), radial-gradient(circle at 46% 98%, hsla(279, 88%, 7%, 1) 20.593893049449022%, transparent 49.606606188780056%), radial-gradient(circle at 3% 6%, hsla(279, 88%, 19%, 1) 15%, transparent 65%), radial-gradient(circle at 97% 7%, hsla(279, 17%, 29%, 1) 15%, transparent 65%);
@@ -59,11 +58,10 @@ body {
 }
 
 main {
-    width: 900px;
+    width: 850px;
 }
-
 
 h1 {
     font-family: var(--fnt-header);
-    text-align: center;
+    margin: 0;
 }

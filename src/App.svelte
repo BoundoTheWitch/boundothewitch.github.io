@@ -7,4 +7,6 @@
 </script>
 
 <main class="center">
+    <Hero />
+    <About />
 </main>
