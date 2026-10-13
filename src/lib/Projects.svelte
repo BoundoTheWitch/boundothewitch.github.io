@@ -1,8 +1,6 @@
 <script>
     import ProjectCard from "./ProjectCard.svelte";
 
-    import { SiGithub } from "@icons-pack/svelte-simple-icons";
-
     // Images
     import sitePreview from '../assets/img/portfolio-preview.jpg';
 </script>
