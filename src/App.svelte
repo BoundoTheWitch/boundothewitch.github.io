@@ -10,4 +10,5 @@
     <Hero />
     <About />
     <Skills />
+    <Projects />
 </main>
