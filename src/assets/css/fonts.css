@@ -1,0 +1,17 @@
+/* pirata-one-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Pirata One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pirata-one-v23-latin-regular.woff2') format('woff2');
+}
+
+/* didact-gothic-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/didact-gothic-v21-latin-regular.woff2') format('woff2');
+}
