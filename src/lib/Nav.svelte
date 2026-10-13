@@ -44,4 +44,10 @@
             }
         }
     }
+
+    @media (min-width: 768px) {
+        nav {
+            display: none;
+        }
+    }
 </style>
