@@ -6,6 +6,7 @@
 
 <section>
     <h1>Projects</h1>
+    <p>At the moment I mostly do personal projects and ocassionally a project for others.</p>
     <ProjectCard
         projName="Portfolio site"
         projDesc="The very site you're on! This was made using SvelteKit built as a static site."
