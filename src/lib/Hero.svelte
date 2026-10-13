@@ -1,6 +1,6 @@
 <section class="hero">
     <h1>Boundo the Witch</h1>
-    <p>(maybe a slogan goes here?)</p>
+    <p>Working with technology like witchcraft</p>
 </section>
 
 
