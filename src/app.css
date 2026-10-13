@@ -42,6 +42,7 @@ ul {
 body {
     color: var(--base-text);
     font-family: var(--fnt-primary);
+    font-size: 1.05rem;
     min-block-size: 100svh;
     place-items: center;
     /* Background made using MSHR (mshr.app) */
@@ -87,7 +88,10 @@ h1 {
 }
 
 section {
+    opacity: 0;
     padding: 1rem 13px;
+    animation: fade-in-sections 1s forwards;
+    animation-delay: 700ms;
 }
 
 section.hero {
@@ -115,7 +119,14 @@ section.hero {
     gap: 1rem;
 }
 
-
+@keyframes fade-in-sections {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 @media (max-width: 900px) {
