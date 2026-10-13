@@ -1,6 +1,7 @@
 :root {
     --clr-black: #170222;
     --clr-white: #dee9f5;
+    --clr-blue: #4c89fa;
 
     --purple-50: #000000;
     --purple-100: #100118;
@@ -12,6 +13,7 @@
     --purple-700: #700AA6;
     --purple-800: #800CBE;
     --purple-900: #900DD6;
+
 
     --base-text: var(--clr-white);
     --base-bg: var(--clr-black);
