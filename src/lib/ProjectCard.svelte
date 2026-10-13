@@ -1,15 +1,22 @@
 <script>
-    let { projName, projDesc, projImg, projImgAlt, projLink } = $props();
+    import { SiGithub } from "@icons-pack/svelte-simple-icons";
+
+    let { projName, projDesc, projImg, projImgAlt, projLink, projSrc } = $props();
 </script>
 
 <div class="card">
     <img src={projImg} class="card-image" alt={projImgAlt} />
     <div>
-        <h2 class="card-title">
-            <a href={projLink}>{projName}</a>
-            <div class="icon"></div>
-        </h2>
+        <h2 class="card-title">{projName}</h2>
         <p class="card-desc">{projDesc}</p>
+            <p>
+                <a href={projLink}>Website</a>
+            </p>
+            <p>
+                {#if projSrc}
+                <a href={projSrc}>Source <SiGithub /></a>
+                {/if}
+            </p>
     </div>
 </div>
 
@@ -26,25 +33,26 @@
 
         .card-title {
             line-height: 0;
-            a {
+        }
+        a {
+            color: var(--clr-white);
+            text-decoration: none;
+            transition: color 200ms;
+            &:visited {
                 color: var(--clr-white);
-                text-decoration: none;
-                transition: color 200ms;
-                &:visited {
-                    color: var(--clr-white);
-                }
-                &:hover {
-                    color: var(--clr-blue);
-                }
             }
-
-            .icon {
+            &:hover {
+                color: var(--clr-blue);
+            }
+            &::after {
+                content: '';
                 display: inline-block;
-                margin: 0;
                 width: 1.12rem;
                 height: 1.12rem;
+                margin-left: 3px;
                 background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg>');
                 filter: invert(100%);
+
             }
         }
 
