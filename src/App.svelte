@@ -9,4 +9,5 @@
 <main class="center">
     <Hero />
     <About />
+    <Skills />
 </main>

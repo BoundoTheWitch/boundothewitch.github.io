@@ -65,3 +65,17 @@ h1 {
     font-family: var(--fnt-header);
     margin: 0;
 }
+
+::selection {
+    background-color: var(--clr-blue);
+    text-shadow: 1px 1px 0 black;
+}
+
+section {
+    margin: 4rem 0;
+
+    &:first-child,
+    &#about {
+        margin: 0;
+    }
+}
