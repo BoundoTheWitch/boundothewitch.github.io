@@ -33,20 +33,19 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    li {
-        text-shadow: 2px 2px 0 black;
-        padding: 0 1rem;
-        height: 3rem;
-        margin: 0.2rem;
-        display: inline-flex;
-        align-items: center;
-        background-color: var(--purple-600);
-        border-radius: 20px;
-
-        span {
-            margin-right: 10px;
+        li {
+            text-shadow: 2px 2px 0 black;
+            padding: 0 1rem;
+            height: 3rem;
+            margin: 0.2rem;
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--purple-600);
+            border-radius: 20px;
+    
+            span {
+                margin-right: 10px;
+            }
         }
     }
 </style>
