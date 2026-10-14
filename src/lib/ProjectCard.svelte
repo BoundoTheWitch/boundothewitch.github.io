@@ -26,6 +26,8 @@
         display: flex;
         align-items: flex-start;
         margin: 1.5rem 0;
+            font-size: 0.9rem;
+
 
         div {
             margin-left: 20px;
@@ -55,7 +57,18 @@
 
         .card-links {
             margin: 0.5rem 0;
-            font-size: 0.9rem;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 849px) {
+        .card {
+            flex-flow: column-reverse;
+            place-items: center;
+            margin-left: 0;
+
+            div {
+                margin-left: 0;
+            }
         }
     }
 </style>

@@ -84,7 +84,7 @@ strong {
     text-decoration: underline;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 849px) {
     main {
         width: 100%;
     }
