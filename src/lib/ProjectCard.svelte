@@ -1,42 +1,40 @@
 <script>
-    let { projName, projDesc, projImg, projImgAlt, projLink, projSrc } = $props();
+    let { projName, projDesc, projLink, projSrc } = $props();
     import { ExternalLink } from "@lucide/svelte";
 </script>
 
 <div class="card">
-    <img src={projImg} class="card-image" alt={projImgAlt} />
-    <div>
-        <h2 class="card-title">{projName}</h2>
-        <p class="card-desc">{projDesc}</p>
-            <p class="card-links">
-                {#if projLink}
-                <a href={projLink}>Website <ExternalLink size="12" /></a>
-                {/if}
-            </p>
-            <p class="card-links">
-                {#if projSrc}
-                <a href={projSrc}>Source <ExternalLink size="12" /></a>
-                {/if}
-            </p>
+    <h2 class="card-title">{projName}</h2>
+    <p class="card-desc">{projDesc}</p>
+    <div class="card-links">
+        {#if projLink}
+        <p class="card-link">
+            <a href={projLink}>Website <ExternalLink size="12" /></a>
+        </p>
+        {/if}
+        {#if projSrc}
+        <p class="card-link">
+            <a href={projSrc}>Source <ExternalLink size="12" /></a>
+        </p>
+        {/if}
     </div>
 </div>
 
 <style>
     .card {
-        display: flex;
-        align-items: flex-start;
-        margin: 1.5rem 0;
-            font-size: 0.9rem;
+        color: var(--clr-white);
+        box-sizing: border-box;
+        border: 2px solid var(--purple-400);
+        padding: 10px;
+        width: 400px;
+        border-radius: 20px;
+        font-size: 0.9rem;
 
-
-        div {
-            margin-left: 20px;
-            display: grid;
+        h2 {
+            margin: 0;
+            text-align: center;
         }
 
-        .card-title {
-            line-height: 0;
-        }
         a {
             color: var(--clr-white);
             text-decoration: none;
@@ -49,26 +47,19 @@
             }
         }
 
-        .card-image {
-            width: 200px;
-            aspect-ratio: 16/9;
-            background-color: grey;
+        .card-links {
+            display: flex;
+            justify-content: space-around;
         }
 
-        .card-links {
+        .card-link {
             margin: 0.5rem 0;
         }
     }
 
     @media (min-width: 320px) and (max-width: 849px) {
         .card {
-            flex-flow: column-reverse;
-            place-items: center;
-            margin-left: 0;
-
-            div {
-                margin-left: 0;
-            }
+            width: 100%;
         }
     }
 </style>
