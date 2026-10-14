@@ -16,9 +16,3 @@
         <p>AI was <strong>NOT</strong> used in the making of this site.</p>
     </footer>
 </main>
-
-<style>
-    strong {
-        text-decoration: underline;
-    }
-</style>

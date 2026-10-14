@@ -79,3 +79,7 @@ section {
         margin: 0;
     }
 }
+
+strong {
+    text-decoration: underline;
+}
