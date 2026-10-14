@@ -11,4 +11,8 @@
     <About />
     <Skills />
     <Projects />
+    <footer>
+        <p>&copy;2026 Ash Chapman</p>
+        <p>AI was <strong>NOT</strong> used in the making of this site.</p>
+    </footer>
 </main>
