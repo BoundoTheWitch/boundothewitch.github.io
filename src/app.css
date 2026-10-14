@@ -83,3 +83,13 @@ section {
 strong {
     text-decoration: underline;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    main {
+        width: 100%;
+    }
+
+    section, footer {
+        padding: 0 15px;
+    }
+}

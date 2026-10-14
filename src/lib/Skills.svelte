@@ -25,6 +25,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
 
         li {
             display: flex;
@@ -33,6 +34,7 @@
             background-color: var(--clr-white);
             padding: 1rem;
             border-radius: 20px;
+            margin: 10px 0;
 
             &::selection {
                 text-shadow: none;
