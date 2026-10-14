@@ -1,7 +1,6 @@
 <script>
-    
-
     let { projName, projDesc, projImg, projImgAlt, projLink, projSrc } = $props();
+    import { ExternalLink } from "@lucide/svelte";
 </script>
 
 <div class="card">
@@ -11,12 +10,12 @@
         <p class="card-desc">{projDesc}</p>
             <p class="card-links">
                 {#if projLink}
-                <a href={projLink}>Website</a>
+                <a href={projLink}>Website <ExternalLink size="12" /></a>
                 {/if}
             </p>
             <p class="card-links">
                 {#if projSrc}
-                <a href={projSrc}>Source</a>
+                <a href={projSrc}>Source <ExternalLink size="12" /></a>
                 {/if}
             </p>
     </div>
