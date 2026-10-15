@@ -1,11 +1,11 @@
 <script>
-    let { projName, projDesc, projLink = '', projSrc = '' } = $props();
+    let { projName, projLink = '', projSrc = '', children } = $props();
     import { ExternalLink } from "@lucide/svelte";
 </script>
 
 <div class="card">
     <h2 class="card-title">{projName}</h2>
-    <p class="card-desc">{projDesc}</p>
+    {@render children?.()}
     <div class="card-links">
         {#if projLink !== ''}
         <p class="card-link">

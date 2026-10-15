@@ -8,21 +8,21 @@
     <div class="cards">
         <ProjectCard
             projName="Portfolio site"
-            projDesc="The very site you're on! This was made using SvelteKit built as a static site."
             projLink="https://boundothewitch.github.io/"
-            projSrc="https://github.com/BoundoTheWitch/boundothewitch.github.io"
-        />
+            projSrc="https://github.com/BoundoTheWitch/boundothewitch.github.io">
+            <p>The very site you're on! This was made using SvelteKit built as a static site.</p>
+        </ProjectCard>
         <ProjectCard
             projName="My Mother's Site (A-Star)"
-            projDesc="My mother's website for her service dog training business. No framework was used, just plain HTML, CSS, and some JavaScript. For privacy reasons I will share an offline version of the site with private info stripped out."
             projLink="https://boundothewitch.github.io/moms-site"
-            projSrc="https://github.com/BoundoTheWitch/moms-site"
-        />
+            projSrc="https://github.com/BoundoTheWitch/moms-site">
+            <p>My mother's website for her service dog training business. No framework was used, just plain HTML, CSS, and some JavaScript. For privacy reasons I will share an offline version of the site with private info stripped out.</p>    
+    </ProjectCard>
         <ProjectCard
             projName="Isabelle Bot"
-            projDesc="Isabelle Bot is a Discord bot developed for a friend's Discord server that provided interactive functions and audit capabilities. More info can be found on the GitHub repo."
-            projSrc="https://github.com/BoundoTheWitch/isabellebot"
-        />
+            projSrc="https://github.com/BoundoTheWitch/isabellebot">
+                <p>Isabelle Bot is a Discord bot developed for a friend's Discord server that provided interactive functions and audit capabilities. More info can be found on the GitHub repo.</p>
+        </ProjectCard>
     </div>
 </section>
 
