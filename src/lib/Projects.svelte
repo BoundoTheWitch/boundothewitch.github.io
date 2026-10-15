@@ -20,7 +20,7 @@
         />
         <ProjectCard
             projName="Isabelle Bot"
-            projDesc="Isabelle Bot is a Discord bot developed for a friend's Discord server that provided interactive functions and audit capabilities. More info can be found on the GitHub repo"
+            projDesc="Isabelle Bot is a Discord bot developed for a friend's Discord server that provided interactive functions and audit capabilities. More info can be found on the GitHub repo."
             projSrc="https://github.com/BoundoTheWitch/isabellebot"
         />
     </div>
