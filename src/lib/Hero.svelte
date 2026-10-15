@@ -4,7 +4,7 @@
 <section class="hero">
     <div>
         <h1>Ash Chapman</h1>
-        <p>Junior Front-End Web Developer</p>
+        <p>Freelance Front-End Web Developer</p>
     </div>
 </section>
 
