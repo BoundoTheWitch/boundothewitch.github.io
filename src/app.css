@@ -72,7 +72,10 @@ h1 {
 }
 
 section {
+    opacity: 0;
     margin: 4rem 0;
+    animation: site-fade-out 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+    animation-delay: 500ms;
 
     &:first-child,
     &#about {
@@ -84,6 +87,12 @@ strong {
     text-decoration: underline;
 }
 
+.hero {
+    opacity: 0;
+    animation: hero-fade-out 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+    animation-delay: 250ms;
+}
+
 @media (min-width: 320px) and (max-width: 849px) {
     main {
         width: 100%;
@@ -91,5 +100,33 @@ strong {
 
     section, footer {
         padding: 0 15px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero,
+    section {
+        opacity: 1;
+        animation: none;
+    }
+}
+
+@keyframes hero-fade-out {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes site-fade-out {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
