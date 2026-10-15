@@ -1,5 +1,5 @@
 <section id="about">
     <h1>About</h1>
-    <p>Hello, the name's Ash! I love just about anything that has to do with computers, but I primarily love to create and build things. Ever since I learned how to write HTML and CSS in 2006 when I was 13-years-old all I wanted to do is to learn more skills to create more. Skills such as more advanced HTML and CSS, and using Photoshop.</p>
-    <p>Currently I am a freelancer, eager to work on whatever project you need done. While I don't have professional experience, I've had plenty of time to hone my skills through personal projects, reading up on current trends in the world of webdev, and learning new skills such as developing sites using frameworks like Svelte.</p>
+    <p>Hello, the name's Ash! I am a Freelance Front-End Web Developer looking to get started on working on the next big project. My focus is on standard webpages with or without a framework.</p>
+    <p>On top of developing I love to create. Back in 2006 when I was 13-years-old I learned how to write webpages in HTML and CSS. Ever since then I've been eager to learn more advanced web development and even going beyond with learning how to use software like Photoshop, and Flash. To this day I strive to learn more, whether it be software, or programming languages.</p>
 </section>
