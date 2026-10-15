@@ -1,8 +1,5 @@
 <script>
     import ProjectCard from "./ProjectCard.svelte";
-
-    // Images
-    import sitePreview from '../assets/img/portfolio-preview.jpg';
 </script>
 
 <section>
@@ -15,11 +12,11 @@
             projLink="https://boundothewitch.github.io/"
             projSrc="https://github.com/BoundoTheWitch/boundothewitch.github.io"
         />
-                <ProjectCard
-            projName="Portfolio site"
-            projDesc="The very site you're on! This was made using SvelteKit built as a static site."
-            projLink="https://boundothewitch.github.io/"
-            projSrc="https://github.com/BoundoTheWitch/boundothewitch.github.io"
+        <ProjectCard
+            projName="My Mother's Site (A-Star)"
+            projDesc="My mother's website for her service dog training business. No framework was used, just plain HTML, CSS, and some JavaScript. For privacy reasons I will share an offline version of the site with private info stripped out."
+            projLink="https://boundothewitch.github.io/moms-site"
+            projSrc="https://github.com/BoundoTheWitch/moms-site"
         />
     </div>
 </section>
