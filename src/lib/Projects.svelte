@@ -16,7 +16,7 @@
             projName="My Mother's Site (A-Star)"
             projLink="https://boundothewitch.github.io/moms-site"
             projSrc="https://github.com/BoundoTheWitch/moms-site">
-            <p>My mother's website for her service dog training business. No framework was used, just plain HTML, CSS, and some JavaScript. For privacy reasons I will share an offline version of the site with private info stripped out.</p>    
+            <p>My mother's website for her service dog training business. 11ty was used to generate the site, with ssome JavaScript for being able to zoom into pictures. For privacy reasons I will share an offline version of the site with private info stripped out.</p>    
     </ProjectCard>
         <ProjectCard
             projName="Isabelle Bot"
