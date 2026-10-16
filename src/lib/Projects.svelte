@@ -2,7 +2,7 @@
     import ProjectCard from "./ProjectCard.svelte";
 </script>
 
-<section>
+<section id="projects">
     <h1>Projects</h1>
     <p>At the moment I mostly do personal projects and ocassionally a project for others.</p>
     <div class="cards">
