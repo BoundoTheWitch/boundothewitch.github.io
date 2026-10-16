@@ -31,7 +31,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-        place-items: center;
+        place-items: stretch;
+        
 
     }
     @media (min-width: 320px) and (max-width: 849px) {
@@ -45,7 +46,7 @@
             display: flex;
             flex-flow: column;
             justify-content: center;
-            align-items: center;
+            align-items: stretch;
         }
     }
 </style>

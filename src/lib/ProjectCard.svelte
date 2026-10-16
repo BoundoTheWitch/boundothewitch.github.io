@@ -22,10 +22,13 @@
 
 <style>
     .card {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
         color: var(--clr-white);
         box-sizing: border-box;
-        border: 2px solid var(--purple-400);
-        padding: 10px;
+        background-color: var(--purple-300);
+        padding: 12px;
         width: 400px;
         border-radius: 20px;
         font-size: 0.9rem;
