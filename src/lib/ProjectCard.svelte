@@ -38,18 +38,6 @@
             text-align: center;
         }
 
-        a {
-            color: var(--clr-white);
-            text-decoration: none;
-            transition: color 200ms;
-            &:visited {
-                color: var(--clr-white);
-            }
-            &:hover {
-                color: var(--clr-blue);
-            }
-        }
-
         .card-links {
             display: flex;
             justify-content: space-around;
