@@ -75,8 +75,7 @@ section {
     opacity: 0;
     margin: 4rem 0;
     animation: site-fade-out 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
-    animation-delay: 500ms;
-
+    animation-delay: calc(sibling-index() * 300ms);
     &:first-child,
     &#about {
         margin: 0;
