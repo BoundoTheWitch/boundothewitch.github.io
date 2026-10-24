@@ -10,13 +10,13 @@
             projName="Portfolio site"
             projLink="https://boundothewitch.github.io/"
             projSrc="https://github.com/BoundoTheWitch/boundothewitch.github.io">
-            <p>The very site you're on! This was made using SvelteKit built as a static site.</p>
+            <p>The very site you're on! This was made using Svelte and Vite built as a static site.</p>
         </ProjectCard>
         <ProjectCard
             projName="My Mother's Site (A-Star)"
             projLink="https://boundothewitch.github.io/moms-site"
             projSrc="https://github.com/BoundoTheWitch/moms-site">
-            <p>My mother's website for her service dog training business. 11ty was used to generate the site, with ssome JavaScript for being able to zoom into pictures. For privacy reasons I will share an offline version of the site with private info stripped out.</p>    
+            <p>My mother's website for her service dog training business. Eleventy/11ty was used to generate the site, with ssome JavaScript for being able to zoom into pictures. For privacy reasons I will share an offline version of the site with private info stripped out.</p>    
     </ProjectCard>
         <ProjectCard
             projName="Isabelle Bot"
