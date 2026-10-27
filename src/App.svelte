@@ -15,7 +15,7 @@
     <Projects />
     <footer>
         <p>&copy; 2026 Ash Chapman</p>
-        <p>This site was built using <a href="https://svelte.dev/" target="_blank">Svelte<ExternalLink size="12" rel="noreferrer nofollow" /></a> with <a href="https://vite.dev/" target="_blank" rel="noreferrer nofollow">Vite<ExternalLink size="12" /></a></p>
+        <p>This site was built using <a href="https://svelte.dev/" target="_blank">Svelte<ExternalLink size="12" rel="noreferrer noopener" /></a> with <a href="https://vite.dev/" target="_blank" rel="noreferrer noopener">Vite<ExternalLink size="12" /></a></p>
     </footer>
 </main>
 

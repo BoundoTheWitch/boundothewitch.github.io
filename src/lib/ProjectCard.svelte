@@ -9,12 +9,12 @@
     <div class="card-links">
         {#if projLink !== ''}
         <p class="card-link">
-            <a href={projLink} target="_blank" rel="noreferrer nofollow">Website <ExternalLink size="12" /></a>
+            <a href={projLink} target="_blank" rel="noreferrer noopener">Website <ExternalLink size="12" /></a>
         </p>
         {/if}
         {#if projSrc !== ''}
         <p class="card-link">
-            <a href={projSrc} target="_blank" rel="noreferrer nofollow">Source <ExternalLink size="12" /></a>
+            <a href={projSrc} target="_blank" rel="noreferrer noopener">Source <ExternalLink size="12" /></a>
         </p>
         {/if}
     </div>
