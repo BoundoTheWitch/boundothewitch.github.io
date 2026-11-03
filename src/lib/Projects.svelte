@@ -17,11 +17,17 @@
             projLink="https://boundothewitch.github.io/moms-site"
             projSrc="https://github.com/BoundoTheWitch/moms-site">
             <p>My mother's website for her service dog training business. Eleventy/11ty was used to generate the site, with ssome JavaScript for being able to zoom into pictures. For privacy reasons I will share an offline version of the site with private info stripped out.</p>    
-    </ProjectCard>
+        </ProjectCard>
         <ProjectCard
             projName="Isabelle Bot"
             projSrc="https://github.com/BoundoTheWitch/isabellebot">
                 <p>Isabelle Bot is a Discord bot developed for a friend's Discord server that provided interactive functions and audit capabilities. More info can be found on the GitHub repo.</p>
+        </ProjectCard>
+        <ProjectCard
+            projName="Blog"
+            projLink="https://boundothewitch.github.io/blog"
+            projSrc="https://github.com/BoundoTheWitch/blog">
+                <p>My pesonal blog, made using Jekyll. The site was made to be as lightweight as possible.</p>
         </ProjectCard>
     </div>
 </section>
